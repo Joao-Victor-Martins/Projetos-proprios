@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Teste de Form</title>
+</head>
+<body>
+    <main>
+        <div id="introducao">
+            <h1>Formulário</h1>
+            <p>Coloque abaixo suas informações</p>
+            <br>
+        </div>
+        <div>
+            <form>
+                <fieldset>
+                    <div>
+                        <label class="informs">Nome</label>
+                        <input type="text" name="Nome" id="name" required>
+                    </div>
+                    <div>
+                        <label class="informs">Email</label>
+                        <input type="email" name="Email" id="email" required>
+                    </div>
+                    <div>
+                        <label class="informs">Senha</label>
+                        <input type="password" name="Senha" id="senha" required>
+                    </div>
+                </fieldset>
+                <div>
+                <fieldset>
+                        <div>
+                            <label id="labeltermo">Termos de condições</label>
+                            <input type="checkbox" name="Termo" id="termos" required>
+                        </div>
+                        <button type="submit" id="botao">
+                            Avançar
+                        </button>
+                </fieldset>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
